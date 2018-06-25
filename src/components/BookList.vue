@@ -14,9 +14,9 @@ export default {
     return {
       title: 'All Books',
       books: [
-        {title: 'Book 1', author: 'Jimmy'},
-        {title: 'Book 2', author: 'John'},
-        {title: 'Book 3', author: 'Sarah'},
+        {title: 'Self-Reliance', author: 'Ralph Waldo Emerson'},
+        {title: 'American Gods', author: 'Neil Gaiman'},
+        {title: 'Amusing Ourselves to Death', author: 'Neil Postman'},
       ]
     }
   }
@@ -27,6 +27,6 @@ export default {
 h1, h2 {
   font-weight: normal;
 }
-ul { list-style: none; padding: 0; }
+ul { list-style-type: none; padding: 0; }
 li { margin: 0 10px; }
 </style>
